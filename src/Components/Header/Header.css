@@ -21,6 +21,7 @@
 .links .icon {
   margin-right: 30px;
   color: #000;
+  cursor: pointer;
 }
 .links a {
   margin-right: 30px;
@@ -34,4 +35,5 @@
   color: #fff;
   font-size: 12px;
   border-radius: 20px;
+  cursor: pointer;
 }
