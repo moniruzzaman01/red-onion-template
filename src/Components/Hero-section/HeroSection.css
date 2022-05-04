@@ -19,6 +19,7 @@
   border: none;
   padding: 7px 20px;
   border-radius: 20px;
+  font-size: 12px;
 }
 .search-container input:first-child {
   width: 220px;
@@ -27,9 +28,8 @@
   outline: none;
 }
 .search-container input:last-child {
-  margin-left: -20px;
+  margin-left: -25px;
   background-color: #f91944;
   color: #fff;
-  font-size: 12px;
   cursor: pointer;
 }
