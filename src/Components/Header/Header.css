@@ -7,7 +7,7 @@
 }
 
 .navbar .brand {
-  height: 25px;
+  height: 30px;
 }
 
 .navbar .brand img {
@@ -15,6 +15,7 @@
 }
 .navbar .links {
   display: flex;
+  align-items: center;
   font-size: 15px;
   font-weight: bold;
 }

@@ -4,7 +4,12 @@ import image1 from "../../images/New folder/adult-blur-blurred-background-687824
 import image2 from "../../images/New folder/chef-cook-food-33614.png";
 import image3 from "../../images/New folder/architecture-building-city-2047397.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faArrowAltCircleRight } from "@fortawesome/free-solid-svg-icons";
+import {
+  faArrowAltCircleRight,
+  faBus,
+  faTruck,
+  faBell,
+} from "@fortawesome/free-solid-svg-icons";
 
 const OurSpeciality = () => {
   return (
@@ -22,7 +27,7 @@ const OurSpeciality = () => {
           </div>
           <div className="contents-container">
             <div className="icon">
-              <FontAwesomeIcon icon={faArrowAltCircleRight} />
+              <FontAwesomeIcon icon={faBus} />
             </div>
             <div className="contents">
               <p>Fast Delivery</p>
@@ -48,7 +53,7 @@ const OurSpeciality = () => {
           </div>
           <div className="contents-container">
             <div className="icon">
-              <FontAwesomeIcon icon={faArrowAltCircleRight} />
+              <FontAwesomeIcon icon={faBell} />
             </div>
             <div className="contents">
               <p>A Good Auto Responder</p>
@@ -74,7 +79,7 @@ const OurSpeciality = () => {
           </div>
           <div className="contents-container">
             <div className="icon">
-              <FontAwesomeIcon icon={faArrowAltCircleRight} />
+              <FontAwesomeIcon icon={faTruck} />
             </div>
             <div className="contents">
               <p>Home Delivery</p>
