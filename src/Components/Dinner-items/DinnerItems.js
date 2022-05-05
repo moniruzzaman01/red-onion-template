@@ -71,7 +71,7 @@ const DinnerItems = () => {
           </div>
         </div>
       </div>
-      <button>Checkout Your food</button>
+      <button className="btn">Checkout Your food</button>
     </>
   );
 };
