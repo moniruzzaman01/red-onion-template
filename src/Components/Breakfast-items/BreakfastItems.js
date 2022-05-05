@@ -1,4 +1,5 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 import breakfast1 from "../../images/breakfast/breakfast1.png";
 import breakfast2 from "../../images/breakfast/breakfast2.png";
 import breakfast3 from "../../images/breakfast/breakfast3.png";
@@ -7,10 +8,11 @@ import breakfast5 from "../../images/breakfast/breakfast5.png";
 import breakfast6 from "../../images/breakfast/breakfast6.png";
 
 const BreakfastItems = () => {
+  const navigate = useNavigate();
   return (
     <>
       <div className="items">
-        <div className="item">
+        <div onClick={() => navigate("/item-details")} className="item">
           <div className="img-container">
             <img src={breakfast1} alt="" />
           </div>

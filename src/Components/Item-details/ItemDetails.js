@@ -5,9 +5,11 @@ import { faShoppingCart } from "@fortawesome/free-solid-svg-icons";
 import itemDetailsImg from "../../images/dinner/dinner5.png";
 import slide1 from "../../images/breakfast/breakfast1.png";
 import slide2 from "../../images/breakfast/breakfast2.png";
-import slide3 from "../../images/breakfast/breakfast3.png";
+import { useNavigate } from "react-router-dom";
 
 const ItemDetails = () => {
+  const navigate = useNavigate();
+
   return (
     <div className="item-details-container container">
       <div className="item-details">
@@ -27,7 +29,7 @@ const ItemDetails = () => {
               <span>+</span>
             </div>
           </div>
-          <button>
+          <button onClick={() => navigate("/order-details")}>
             <FontAwesomeIcon className="icon" icon={faShoppingCart} />
             Add
           </button>
