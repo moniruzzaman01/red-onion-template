@@ -5,6 +5,7 @@ import Header from "./Components/Header/Header";
 import Home from "./Components/Home/Home";
 import ItemDetails from "./Components/Item-details/ItemDetails";
 import Login from "./Components/Login/Login";
+import SignUp from "./Components/Sign-up/SignUp";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Route path="/home" element={<Home />}></Route>
         <Route path="/item-details" element={<ItemDetails />}></Route>
         <Route path="/login" element={<Login />}></Route>
+        <Route path="/signup" element={<SignUp />}></Route>
       </Routes>
       <Footer />
     </div>

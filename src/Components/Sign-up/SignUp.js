@@ -1,16 +1,18 @@
 import React from "react";
-import "./Login.css";
+import "./SignUp.css";
 import logo from "../../images/New folder/logo2.png";
 import { Link } from "react-router-dom";
 
-const Login = () => {
+const SignUp = () => {
   return (
-    <div className="login-container container">
-      <div className="login-form">
+    <div className="signup-container container">
+      <div className="signup-form">
         <div className="brand">
           <img src={logo} alt="" />
         </div>
         <form action="">
+          <input type="text" name="name" id="" placeholder="Your Name" />
+          <br />
           <input type="email" name="email" id="" placeholder="Your Email" />
           <br />
           <input
@@ -21,13 +23,13 @@ const Login = () => {
           />
           <br />
           <p className="redirect">
-            New in RedOnion? <Link to="/signup">Create an account</Link>
+            Have an account? <Link to="/login">Login</Link>
           </p>
-          <input className="" type="submit" value="Login" />
+          <input className="" type="submit" value="Signup" />
         </form>
       </div>
     </div>
   );
 };
 
-export default Login;
+export default SignUp;
