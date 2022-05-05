@@ -20,9 +20,9 @@ const Login = () => {
             placeholder="Your Password"
           />
           <br />
-          <p className="redirect">
+          {/* <p className="redirect">
             New in RedOnion? <Link to="/signup">Create an account</Link>
-          </p>
+          </p> */}
           <input className="" type="submit" value="Login" />
         </form>
       </div>

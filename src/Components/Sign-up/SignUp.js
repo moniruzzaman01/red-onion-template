@@ -22,9 +22,9 @@ const SignUp = () => {
             placeholder="Your Password"
           />
           <br />
-          <p className="redirect">
+          {/* <p className="redirect">
             Have an account? <Link to="/login">Login</Link>
-          </p>
+          </p> */}
           <input className="" type="submit" value="Signup" />
         </form>
       </div>
